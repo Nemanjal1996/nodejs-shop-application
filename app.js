@@ -27,6 +27,7 @@ const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 const authRoutes = require('./routes/auth');
 
+
 const fileStorage = multer.diskStorage({
   destination: (req, res, cb) => {
     cb(null, 'images');
